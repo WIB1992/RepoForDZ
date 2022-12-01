@@ -30,12 +30,6 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(int id, String name, String line) {
-        this.id = id;
-        this.name = name;
-        this.line = line;
-
-    }
 
     public int getId() {
         return id;

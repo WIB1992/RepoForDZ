@@ -8,6 +8,7 @@ com\dmitriev\DAO\ProjectDAO.class
 com\dmitriev\service\ProjectServiceImpl.class
 com\dmitriev\controller\EmployeeController.class
 com\dmitriev\model\Project.class
+com\dmitriev\config\SwaggerConfig.class
 com\dmitriev\DAO\ProjectDAOImpl.class
 com\dmitriev\DAO\CustomerDAOImpl.class
 com\dmitriev\controller\CustomerController.class
