@@ -20,14 +20,37 @@ public class Customer {
     @NotEmpty
     private String name;
 
+    @Column(name = "line")
+    private String line;
+
+
     @OneToMany(mappedBy = "customer")
     List<Project> projects;
 
     public Customer() {
     }
 
-    public Customer(String name) {
+    public Customer(int id, String name, String line) {
+        this.id = id;
         this.name = name;
+        this.line = line;
+
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getLine() {
+        return line;
+    }
+
+    public void setLine(String line) {
+        this.line = line;
     }
 
     public String getName() {
